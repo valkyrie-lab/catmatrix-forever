@@ -12,8 +12,22 @@ else
     HEIGHT=60  # default height
 fi
 
+# Define the image path
+IMAGE_PATH="$(dirname "$0")/images/catmatrix.jpg"
+
+# If the image is not found in the current directory, look in /usr/share/catmatrix-forever/images
+if [ ! -f "$IMAGE_PATH" ]; then
+    IMAGE_PATH="/usr/share/catmatrix-forever/images/catmatrix.jpg"
+fi
+
+# Check if the image exists, if not exit with an error
+if [ ! -f "$IMAGE_PATH" ]; then
+    echo "Error: catmatrix.jpg not found in either the current directory or /usr/share/catmatrix-forever/images."
+    exit 1
+fi
+
 # plot catmatrix
-chafa --size="${WIDTH}x${HEIGHT}" $(dirname "$0")/images/catmatrix.jpg
+chafa --size="${WIDTH}x${HEIGHT}" "$IMAGE_PATH"
 
 # echo story
 # Chinese
