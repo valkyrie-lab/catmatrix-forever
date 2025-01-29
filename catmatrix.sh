@@ -13,7 +13,7 @@ else
 fi
 
 # plot catmatrix
-chafa --size="${WIDTH}x${HEIGHT}" catmatrix.jpg
+chafa --size="${WIDTH}x${HEIGHT}" $(dirname "$0")/images/catmatrix.jpg
 
 # echo story
 # Chinese
