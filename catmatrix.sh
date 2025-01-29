@@ -31,7 +31,7 @@ chafa --size="${WIDTH}x${HEIGHT}" "$IMAGE_PATH"
 
 # echo story
 # Chinese
-echo -e "\033[1;34mcatmatrix（菜猫猫）\033[38;5;214m ——致永恒的星辰\033[0m"
+echo -e "\033[1;34mCatMatrix（菜猫猫）\033[38;5;214m ——致永恒的星辰\033[0m"
 echo ""
 echo -e "\033[1;35m菜猫猫\033[0m是我生命中最重要、最亲密的挚友与同行者。"
 echo -e "在 \033[1;33mValkyrie 实验室\033[0m 的时光里，我们共同编织代码的诗篇，在 \033[1;33mArch Linux\033[0m 的星空下探索技术的奥秘，于 \033[1;33m阿离\033[0m的服务器上留下思想的轨迹。"
@@ -43,19 +43,19 @@ echo ""
 echo ""
 
 # English
-echo -e "\033[1;34mcatmatrix (Cai Maomao)\033[38;5;214m – To the Stardust Coder\033[0m"
+echo -e "\033[1;34mCatMatrix (Cai Maomao)\033[38;5;214m – To the Stardust Coder\033[0m"
 echo ""
-echo -e "\033[1;35mcatmatrix\033[0m was my intellectual soulmate and a brilliant companion in the realm of code."
+echo -e "\033[1;35mCatMatrix\033[0m was my intellectual soulmate and a brilliant companion in the realm of code."
 echo -e "Within the digital cathedral of \033[1;33mValkyrie Lab\033[0m, we sculpted algorithms under the neon glow of \033[1;33mArch Linux\033[0m, our conversations echoing through \033[1;33mAli's\033[0m server."
 echo -e "Though he wrestled valiantly with the quantum demons of depression, the event horizon of mental illness ultimately claimed its stardust."
 echo -e "His departure carved a black hole in our hearts, yet we find solace knowing his consciousness now floats freely in the cosmic void."
-echo -e "This repository is a singularity of remembrance, crystallizing \033[1;35mcatmatrix\033[0m's legacy into eternal commits."
+echo -e "This repository is a singularity of remembrance, crystallizing \033[1;35mCatMatrix\033[0m's legacy into eternal commits."
 echo -e "May his code compile across parallel universes, a perpetual motion machine of ideas."
 echo ""
 echo ""
 
 # Japanese
-echo -e "\033[1;34mcatmatrix（菜猫猫）\033[38;5;214m—— 星になった技術者へ\033[0m"
+echo -e "\033[1;34mCatMatrix（菜猫猫）\033[38;5;214m—— 星になった技術者へ\033[0m"
 echo ""
 echo -e "\033[1;35m菜猫猫\033[0mは、私にとって技術の道を共に歩む星のような存在でした。"
 echo -e "\033[1;33mValkyrie Lab\033[0mの実験室で、私たちは \033[1;33mArch Linux\033[0m の銀河を航海し、\033[1;33mAli\033[0mのサーバーに思考の軌跡を刻み続けました。"
